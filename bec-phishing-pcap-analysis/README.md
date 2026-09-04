@@ -33,16 +33,16 @@ Network forensics project simulating a Business Email Compromise (BEC) scenario:
 
 Used **File → Export Objects → IMF** in Wireshark to pull every email object out of `C.pcap`, then exported and opened three as `.eml` files in a mail client to inspect their full content.
 
-![IMF object export list from C.pcap](bec-phishing-pcap-analysis/imf-export-list.png)
+![IMF object export list from C.pcap](imf-export-list.png)
 *Full list of extracted email objects from `C.pcap`, showing the recurring extortion-style subject line pattern across dozens of messages.*
 
-![Phishing email content - password disclosure and RAT claim](bec-phishing-pcap-analysis/eml-peace.png)
+![Phishing email content - password disclosure and RAT claim](eml-peace.png)
 *Extracted email opening with a claimed password and RAT (Remote Administration Tool) compromise claim — a common BEC/sextortion scare tactic.*
 
-![Phishing email with Bitcoin payment demand](bec-phishing-pcap-analysis/eml-tomcat.png)
+![Phishing email with Bitcoin payment demand](eml-tomcat.png)
 *Same extortion template, this time including a specific Bitcoin payment demand and instructions for purchasing BTC.*
 
-![Third phishing email variant](bec-phishing-pcap-analysis/eml-incretible.png)
+![Third phishing email variant](eml-incretible.png)
 *A third variant of the same template sent to a different recipient, confirming this was a mass, scripted phishing campaign rather than a targeted one-off.*
 
 ## Tools Used
